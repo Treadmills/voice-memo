@@ -1,0 +1,340 @@
+09:08:38.070 [main] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@4ce1d6d0: startup date [Mon Mar 30 09:08:38 CST 2020]; root of context hierarchy
+09:08:38.249 [main] INFO  o.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:08:38.285 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d0354c43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:08:38.625 [main] INFO  com.ddz.VoiceWxMiniApplication - The following profiles are active: datasource-dev
+09:08:38.637 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33a630fa: startup date [Mon Mar 30 09:08:38 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4ce1d6d0
+09:08:39.350 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=3c647817-862d-30f4-8104-c95be44e5470
+09:08:39.364 [main] INFO  o.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:08:39.480 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b41b4946] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:08:39.613 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$d0354c43] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:08:40.081 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+09:08:40.095 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+09:08:40.106 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:08:40.106 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+09:08:40.114 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;.]
+09:08:40.260 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:08:40.261 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1624 ms
+09:08:40.428 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+09:08:40.432 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+09:08:40.433 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:08:40.433 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:08:40.433 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+09:08:40.433 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'myCORSFilter' to: [/*]
+09:08:41.007 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+09:08:41.008 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:08:41.013 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+09:08:41.014 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:08:41.111 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:08:41.345 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33a630fa: startup date [Mon Mar 30 09:08:38 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@4ce1d6d0
+09:08:41.416 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/auth/login],methods=[GET],produces=[application/json]}" onto public com.ddz.utils.base.R com.ddz.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String)
+09:08:41.418 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/voice/delete],methods=[GET],produces=[application/json;charset=utf-8]}" onto public com.ddz.utils.base.R com.ddz.controller.VoiceController.delete(javax.servlet.http.HttpServletRequest,java.lang.Long)
+09:08:41.419 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/voice/list],methods=[GET],produces=[application/json;charset=utf-8]}" onto public com.ddz.utils.base.R com.ddz.controller.VoiceController.list(javax.servlet.http.HttpServletRequest)
+09:08:41.419 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/voice/add],methods=[GET],produces=[application/json;charset=utf-8]}" onto public com.ddz.utils.base.R com.ddz.controller.VoiceController.addVoice(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+09:08:41.420 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:08:41.421 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:08:41.453 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:08:41.453 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:08:42.479 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+09:08:42.480 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+09:08:42.487 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+09:08:42.488 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+09:08:42.489 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+09:08:42.492 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+09:08:42.503 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+09:08:42.513 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=33a630fa,type=ConfigurationPropertiesRebinder]
+09:08:42.518 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+09:08:42.524 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+09:08:42.533 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+09:08:42.570 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+09:08:42.936 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+09:08:42.937 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+09:08:43.049 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+09:08:43.049 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+09:08:43.289 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:08:43.419 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+09:08:43.419 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+09:08:43.419 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+09:08:43.420 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+09:08:43.420 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+09:08:43.420 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+09:08:43.420 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+09:08:43.656 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+09:08:43.657 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+09:08:43.659 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+09:08:43.663 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1585530523662 with initial instances count: 0
+09:08:43.669 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application voice-wx-mini with eureka with status UP
+09:08:43.669 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1585530523669, current=UP, previous=STARTING]
+09:08:43.671 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_VOICE-WX-MINI/192.168.0.106:voice-wx-mini:8762: registering service...
+09:08:43.683 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+09:08:43.695 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:08:43.717 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+09:08:43.718 [main] INFO  o.s.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 8762
+09:08:43.721 [main] INFO  com.ddz.VoiceWxMiniApplication - Started VoiceWxMiniApplication in 6.2 seconds (JVM running for 6.811)
+09:08:43.783 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_VOICE-WX-MINI/192.168.0.106:voice-wx-mini:8762 - registration status: 204
+09:09:13.681 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+09:09:13.682 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+09:09:13.682 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+09:09:13.682 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+09:09:13.682 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+09:09:13.682 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+09:09:13.682 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+09:09:13.720 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+09:09:22.002 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+09:09:22.002 [http-nio-8762-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+09:09:22.021 [http-nio-8762-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+09:09:22.061 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[033vp42D1aN5m70xnO1D16pM1D1vp42A]
+09:09:22.471 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:09:22.472 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[TivdSnYE3MW3Owjg/i8tuw==]
+09:09:22.530 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:09:22.573 [http-nio-8762-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:09:22.738 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:09:22.754 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:09:22.809 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 0
+09:09:22.811 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:09:22.811 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 新用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:09:22.812 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:09:22.812 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:09:22.812 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:09:22.814 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 0
+09:09:22.814 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:09:22.817 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:09:22.817 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective - ==>  Preparing: insert into t_user ( F_WX_OPENID, F_INDATE ) values ( ?, ? ) 
+09:09:22.818 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String), 2020-03-30 09:09:22.815(Timestamp)
+09:09:22.828 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective - <==    Updates: 1
+09:09:22.829 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective!selectKey - ==>  Preparing: SELECT LAST_INSERT_ID() 
+09:09:22.830 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective!selectKey - ==> Parameters: 
+09:09:22.834 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective!selectKey - <==      Total: 1
+09:09:22.834 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:09:22.835 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:09:22.835 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:09:22.835 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:09:22.837 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:09:22.837 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:13:43.421 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:15:45.862 [main] INFO  org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@46944ca9: startup date [Mon Mar 30 09:15:45 CST 2020]; root of context hierarchy
+09:15:46.051 [main] INFO  o.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:15:46.087 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$484da788] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:15:46.443 [main] INFO  com.ddz.VoiceWxMiniApplication - The following profiles are active: datasource-dev
+09:15:46.456 [main] INFO  o.s.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7af1cd63: startup date [Mon Mar 30 09:15:46 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@46944ca9
+09:15:47.093 [main] INFO  org.springframework.cloud.context.scope.GenericScope - BeanFactory id=3c647817-862d-30f4-8104-c95be44e5470
+09:15:47.112 [main] INFO  o.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+09:15:47.244 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2c33a48b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:15:47.386 [main] INFO  o.s.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$484da788] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+09:15:47.931 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8762 (http)
+09:15:47.946 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8762"]
+09:15:47.962 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+09:15:47.962 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.31
+09:15:47.974 [localhost-startStop-1] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_181\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\NetSarang\Xshell 6\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Java\jdk1.8.0_181\bin;C:\Program Files\Java\jdk1.8.0_181\jre\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Users\admin\AppData\Local\Microsoft\WindowsApps;;.]
+09:15:48.144 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+09:15:48.144 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1688 ms
+09:15:48.314 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+09:15:48.320 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+09:15:48.320 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+09:15:48.321 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+09:15:48.321 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+09:15:48.321 [localhost-startStop-1] INFO  org.springframework.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'myCORSFilter' to: [/*]
+09:15:48.881 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+09:15:48.881 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:15:48.886 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+09:15:48.887 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+09:15:48.989 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:15:49.227 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7af1cd63: startup date [Mon Mar 30 09:15:46 CST 2020]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@46944ca9
+09:15:49.291 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/auth/login],methods=[GET],produces=[application/json]}" onto public com.ddz.utils.base.R com.ddz.controller.LoginController.login(javax.servlet.http.HttpServletRequest,java.lang.String)
+09:15:49.293 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/voice/delete],methods=[GET],produces=[application/json;charset=utf-8]}" onto public com.ddz.utils.base.R com.ddz.controller.VoiceController.delete(javax.servlet.http.HttpServletRequest,java.lang.Long)
+09:15:49.293 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/voice/list],methods=[GET],produces=[application/json;charset=utf-8]}" onto public com.ddz.utils.base.R com.ddz.controller.VoiceController.list(javax.servlet.http.HttpServletRequest)
+09:15:49.294 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/voice/add],methods=[GET],produces=[application/json;charset=utf-8]}" onto public com.ddz.utils.base.R com.ddz.controller.VoiceController.addVoice(javax.servlet.http.HttpServletRequest,java.lang.String,java.lang.String)
+09:15:49.295 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+09:15:49.295 [main] INFO  o.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+09:15:49.326 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:15:49.326 [main] INFO  org.springframework.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+09:15:50.348 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+09:15:50.349 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'dataSource' has been autodetected for JMX exposure
+09:15:50.355 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'refreshScope' has been autodetected for JMX exposure
+09:15:50.356 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+09:15:50.356 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'environmentManager' has been autodetected for JMX exposure
+09:15:50.359 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+09:15:50.368 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+09:15:50.378 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7af1cd63,type=ConfigurationPropertiesRebinder]
+09:15:50.383 [main] INFO  org.springframework.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'dataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=dataSource,type=DruidDataSource]
+09:15:50.389 [main] INFO  org.springframework.context.support.DefaultLifecycleProcessor - Starting beans in phase 0
+09:15:50.397 [main] INFO  org.springframework.cloud.netflix.eureka.InstanceInfoFactory - Setting initial instance status as: STARTING
+09:15:50.433 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+09:15:50.736 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+09:15:50.737 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+09:15:50.839 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+09:15:50.840 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+09:15:51.070 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:15:51.204 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+09:15:51.204 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+09:15:51.204 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+09:15:51.205 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+09:15:51.205 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+09:15:51.205 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+09:15:51.205 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+09:15:51.428 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+09:15:51.455 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+09:15:51.457 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+09:15:51.459 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1585530951458 with initial instances count: 1
+09:15:51.466 [main] INFO  org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry - Registering application voice-wx-mini with eureka with status UP
+09:15:51.466 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1585530951466, current=UP, previous=STARTING]
+09:15:51.468 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_VOICE-WX-MINI/192.168.0.106:voice-wx-mini:8762: registering service...
+09:15:51.478 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8762"]
+09:15:51.488 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+09:15:51.498 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_VOICE-WX-MINI/192.168.0.106:voice-wx-mini:8762 - registration status: 204
+09:15:51.503 [main] INFO  org.springframework.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8762 (http) with context path ''
+09:15:51.504 [main] INFO  o.s.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration - Updating port to 8762
+09:15:51.506 [main] INFO  com.ddz.VoiceWxMiniApplication - Started VoiceWxMiniApplication in 6.192 seconds (JVM running for 7.247)
+09:16:01.101 [http-nio-8762-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+09:16:01.101 [http-nio-8762-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+09:16:01.120 [http-nio-8762-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 19 ms
+09:16:01.171 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[023AiwN118kgBS1p88O11PBAN11AiwNI]
+09:16:01.621 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:16:01.621 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[4FezSvyqRCi7TXPKry7kBA==]
+09:16:01.671 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:16:01.703 [http-nio-8762-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+09:16:01.856 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:16:01.870 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:16:01.881 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:16:01.882 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:16:01.886 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 老用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:16:01.948 [http-nio-8762-exec-2] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:16:01.949 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:16:01.950 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 1(Long), 0(Integer)
+09:16:01.959 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 2
+09:16:01.960 [http-nio-8762-exec-2] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:20:51.208 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:23:10.750 [http-nio-8762-exec-5] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[043Sn7tf1Nqvlu057esf1Y3Wsf1Sn7tK]
+09:23:10.917 [http-nio-8762-exec-5] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:23:10.917 [http-nio-8762-exec-5] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[IQTUI2sjFWieNN+zUwarEg==]
+09:23:10.918 [http-nio-8762-exec-5] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:23:10.922 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:23:10.922 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:23:10.923 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 0
+09:23:10.923 [http-nio-8762-exec-5] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:23:10.923 [http-nio-8762-exec-5] DEBUG com.ddz.controller.LoginController - 新用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:23:10.924 [http-nio-8762-exec-5] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:23:10.924 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:23:10.924 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:23:10.925 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 0
+09:23:10.925 [http-nio-8762-exec-5] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:23:10.928 [http-nio-8762-exec-5] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:23:10.928 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective - ==>  Preparing: insert into t_user ( F_WX_OPENID, F_INDATE ) values ( ?, ? ) 
+09:23:10.929 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String), 2020-03-30 09:23:10.926(Timestamp)
+09:23:10.931 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective - <==    Updates: 1
+09:23:10.931 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective!selectKey - ==>  Preparing: SELECT LAST_INSERT_ID() 
+09:23:10.931 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective!selectKey - ==> Parameters: 
+09:23:10.932 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.insertSelective!selectKey - <==      Total: 1
+09:23:10.932 [http-nio-8762-exec-5] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:23:10.933 [http-nio-8762-exec-5] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:23:10.933 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:23:10.933 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:23:10.934 [http-nio-8762-exec-5] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:23:10.934 [http-nio-8762-exec-5] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:23:10.962 [http-nio-8762-exec-4] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:23:10.963 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:23:10.964 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 2(Long), 0(Integer)
+09:23:10.965 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 0
+09:23:10.966 [http-nio-8762-exec-4] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:23:17.813 [http-nio-8762-exec-6] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[023R2BU503BA7G1DyBV50uopU50R2BU6]
+09:23:17.965 [http-nio-8762-exec-6] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:23:17.966 [http-nio-8762-exec-6] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[IQTUI2sjFWieNN+zUwarEg==]
+09:23:17.967 [http-nio-8762-exec-6] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:23:17.967 [http-nio-8762-exec-6] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:23:17.968 [http-nio-8762-exec-6] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:23:17.969 [http-nio-8762-exec-6] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:23:17.969 [http-nio-8762-exec-6] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:23:17.969 [http-nio-8762-exec-6] DEBUG com.ddz.controller.LoginController - 老用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:23:17.992 [http-nio-8762-exec-7] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:23:17.992 [http-nio-8762-exec-7] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:23:17.993 [http-nio-8762-exec-7] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 2(Long), 0(Integer)
+09:23:17.994 [http-nio-8762-exec-7] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 0
+09:23:17.994 [http-nio-8762-exec-7] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:25:51.209 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:30:06.592 [http-nio-8762-exec-9] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[033Cy69x1Puy6f0dBx7x1jG89x1Cy691]
+09:30:06.756 [http-nio-8762-exec-9] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:30:06.757 [http-nio-8762-exec-9] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[H5yHKrdVU/DeiASATjP4LA==]
+09:30:06.757 [http-nio-8762-exec-9] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:30:06.758 [http-nio-8762-exec-9] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:30:06.758 [http-nio-8762-exec-9] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:30:06.760 [http-nio-8762-exec-9] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:30:06.760 [http-nio-8762-exec-9] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:30:06.760 [http-nio-8762-exec-9] DEBUG com.ddz.controller.LoginController - 老用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:30:06.786 [http-nio-8762-exec-10] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:30:06.787 [http-nio-8762-exec-10] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:30:06.787 [http-nio-8762-exec-10] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 2(Long), 0(Integer)
+09:30:06.788 [http-nio-8762-exec-10] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 0
+09:30:06.788 [http-nio-8762-exec-10] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:30:12.927 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[043dmYXp1qyTFm0fpcWp1bOEXp1dmYX3]
+09:30:13.100 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:30:13.100 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[H5yHKrdVU/DeiASATjP4LA==]
+09:30:13.101 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:30:13.101 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:30:13.102 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:30:13.103 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:30:13.103 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:30:13.103 [http-nio-8762-exec-1] DEBUG com.ddz.controller.LoginController - 老用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:30:13.358 [http-nio-8762-exec-2] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:30:13.358 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:30:13.359 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 2(Long), 0(Integer)
+09:30:13.359 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 0
+09:30:13.359 [http-nio-8762-exec-2] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:30:51.210 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:31:16.334 [http-nio-8762-exec-4] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:31:16.336 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.insert - ==>  Preparing: insert into t_user_voice (F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME) values (?, ?, ?, ?, ?, ?) 
+09:31:16.339 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.insert - ==> Parameters: 2(Long), E:\Liang\files\voice\mp3\2020-03-30/test-20200330093108985.mp3(String), 电视剧毕业本身已经有好玩好玩。(String), 0(Integer), 2020-03-30 09:31:16.334(Timestamp), null
+09:31:16.345 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.insert - <==    Updates: 1
+09:31:16.345 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.insert!selectKey - ==>  Preparing: SELECT LAST_INSERT_ID() 
+09:31:16.346 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.insert!selectKey - ==> Parameters: 
+09:31:16.347 [http-nio-8762-exec-4] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.insert!selectKey - <==      Total: 1
+09:31:16.347 [http-nio-8762-exec-4] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:31:16.604 [http-nio-8762-exec-6] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:31:16.605 [http-nio-8762-exec-6] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:31:16.605 [http-nio-8762-exec-6] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 2(Long), 0(Integer)
+09:31:16.606 [http-nio-8762-exec-6] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 1
+09:31:16.607 [http-nio-8762-exec-6] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:35:51.212 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:38:09.284 [http-nio-8762-exec-8] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[043bP1Yf0Pzxtt1ihmZf0ma8Yf0bP1Y9]
+09:38:09.431 [http-nio-8762-exec-8] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:38:09.432 [http-nio-8762-exec-8] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[KVa5CvRwxeKIsKVEiyRLzw==]
+09:38:09.434 [http-nio-8762-exec-8] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:38:09.436 [http-nio-8762-exec-8] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:38:09.439 [http-nio-8762-exec-8] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:38:09.446 [http-nio-8762-exec-8] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:38:09.448 [http-nio-8762-exec-8] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:38:09.449 [http-nio-8762-exec-8] DEBUG com.ddz.controller.LoginController - 老用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:38:09.481 [http-nio-8762-exec-9] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:38:09.481 [http-nio-8762-exec-9] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:38:09.481 [http-nio-8762-exec-9] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 2(Long), 0(Integer)
+09:38:09.483 [http-nio-8762-exec-9] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 1
+09:38:09.483 [http-nio-8762-exec-9] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:38:38.319 [http-nio-8762-exec-10] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[043izj7Y19OqeY0zgJ5Y1AbX6Y1izj71]
+09:38:38.469 [http-nio-8762-exec-10] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:38:38.470 [http-nio-8762-exec-10] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[KVa5CvRwxeKIsKVEiyRLzw==]
+09:38:38.470 [http-nio-8762-exec-10] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:38:38.471 [http-nio-8762-exec-10] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:38:38.471 [http-nio-8762-exec-10] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:38:38.472 [http-nio-8762-exec-10] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:38:38.472 [http-nio-8762-exec-10] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:38:38.473 [http-nio-8762-exec-10] DEBUG com.ddz.controller.LoginController - 老用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:38:38.496 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:38:38.497 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:38:38.497 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 2(Long), 0(Integer)
+09:38:38.498 [http-nio-8762-exec-1] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 1
+09:38:38.499 [http-nio-8762-exec-1] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:39:18.608 [http-nio-8762-exec-2] DEBUG com.ddz.controller.LoginController - 小程序登录，code=[033lwndW0AkaD02JqYfW0pRfdW0lwndB]
+09:39:18.745 [http-nio-8762-exec-2] DEBUG com.ddz.controller.LoginController - 登录的用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:39:18.745 [http-nio-8762-exec-2] DEBUG com.ddz.controller.LoginController - 登录的用户，sessionKey=[KVa5CvRwxeKIsKVEiyRLzw==]
+09:39:18.746 [http-nio-8762-exec-2] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:39:18.746 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_ID, F_USER_NAME, F_PASSWORD, F_NICK_NAME, F_WX_OPENID, F_WX_UNIONID, F_USER_UUID, F_AVATAR, F_SEX, F_PROVICE_ID, F_CITY_ID, F_DISTRICT_ID, F_STREET_ID, F_ADDRESS, F_TEL, F_INDATE, F_UPDATE_TIME from t_user WHERE ( F_WX_OPENID = ? ) 
+09:39:18.746 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - ==> Parameters: oNzhL5HSxOeKK7RHyfGqyhkqYaCg(String)
+09:39:18.747 [http-nio-8762-exec-2] DEBUG com.ddz.domain.mapper.UserEntityMapper.selectByExample - <==      Total: 1
+09:39:18.747 [http-nio-8762-exec-2] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:39:18.748 [http-nio-8762-exec-2] DEBUG com.ddz.controller.LoginController - 老用户，openId=[oNzhL5HSxOeKK7RHyfGqyhkqYaCg]
+09:39:18.770 [http-nio-8762-exec-3] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Fetching JDBC Connection from DataSource
+09:39:18.770 [http-nio-8762-exec-3] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==>  Preparing: select 'true' as QUERYID, F_USER_VOICE_ID, F_USER_ID, F_VOICE_PATH, F_VOICE_MESSAGE, F_IS_DELETE, F_INDATE, F_UPDATE_TIME from t_user_voice WHERE ( F_USER_ID = ? and F_IS_DELETE = ? ) order by F_INDATE ASC 
+09:39:18.770 [http-nio-8762-exec-3] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - ==> Parameters: 2(Long), 0(Integer)
+09:39:18.771 [http-nio-8762-exec-3] DEBUG com.ddz.domain.mapper.UserVoiceEntityMapper.selectByExample - <==      Total: 1
+09:39:18.772 [http-nio-8762-exec-3] DEBUG org.springframework.jdbc.datasource.DataSourceUtils - Returning JDBC Connection to DataSource
+09:40:51.214 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:45:51.216 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+09:50:51.217 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration

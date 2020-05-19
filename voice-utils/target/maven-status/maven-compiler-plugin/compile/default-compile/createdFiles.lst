@@ -1,0 +1,11 @@
+com\ddz\utils\base\DateUtils.class
+com\ddz\utils\base\R.class
+com\ddz\utils\base\StringUtils.class
+com\ddz\utils\config\FileConfig.class
+com\ddz\utils\voice\AudioUtils.class
+com\ddz\utils\base\Json2Utils.class
+com\ddz\utils\config\WxConfig.class
+com\ddz\utils\base\BitOperator.class
+com\ddz\utils\voice\VoiceAipSpeech.class
+com\ddz\utils\base\HexStringUtils.class
+com\ddz\utils\http\HttpUtil.class

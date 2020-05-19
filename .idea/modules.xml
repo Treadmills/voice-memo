@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/voice.iml" filepath="$PROJECT_DIR$/voice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voice-backstage/voice-backstage.iml" filepath="$PROJECT_DIR$/voice-backstage/voice-backstage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voice-datasource/voice-datasource.iml" filepath="$PROJECT_DIR$/voice-datasource/voice-datasource.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voice-domain/voice-domain.iml" filepath="$PROJECT_DIR$/voice-domain/voice-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voice-file/voice-file.iml" filepath="$PROJECT_DIR$/voice-file/voice-file.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voice-memo.iml" filepath="$PROJECT_DIR$/voice-memo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voice-utils/voice-utils.iml" filepath="$PROJECT_DIR$/voice-utils/voice-utils.iml" />
+      <module fileurl="file://$PROJECT_DIR$/voice-wx-mini/voice-wx-mini.iml" filepath="$PROJECT_DIR$/voice-wx-mini/voice-wx-mini.iml" />
     </modules>
   </component>
 </project>

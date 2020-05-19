@@ -1,0 +1,11 @@
+com\ddz\aop\LoginRequired.class
+com\ddz\controller\PersonalController.class
+com\ddz\aop\ControllerInterceptor.class
+com\ddz\common\wx\WeixinToken.class
+com\ddz\controller\LoginController.class
+com\ddz\common\wx\GeneralToken.class
+com\ddz\controller\BaseController.class
+com\ddz\common\wx\WxApiHelper.class
+com\ddz\VoiceWxMiniApplication.class
+com\ddz\controller\VoiceController.class
+com\ddz\filter\MyCORSFilter.class

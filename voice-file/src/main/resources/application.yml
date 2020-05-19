@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: voice-file
+  profiles:
+    include: datasource-dev
+
+server:
+  port: 8773
+  servlet:
+    session:
+      timeout: 3600s
+
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    serviceUrl:
+      defaultZone: http://${voice.eureka.instance.hostname}:${voice.eureka.instance.port}/eureka/
