@@ -14,6 +14,7 @@ import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.ArrayList;
@@ -75,6 +76,8 @@ public class AuthRealm extends AuthorizingRealm {
         UsernamePasswordToken userpasswordToken = (UsernamePasswordToken) token;//这边是界面的登陆数据，将数据封装成token
         String username = userpasswordToken.getUsername();
         AccountEntity accountEntity = accountService.findByUserName(username);
-        return new SimpleAuthenticationInfo(accountEntity,accountEntity.getAccountPassword(),this.getClass().getName());
+        AccountInfo accountInfo = new AccountInfo();
+        BeanUtils.copyProperties(accountEntity, accountInfo);
+        return new SimpleAuthenticationInfo(accountInfo,accountInfo.getAccountPassword(),this.getClass().getName());
     }
 }

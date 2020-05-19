@@ -1,9 +1,0 @@
-com\ddz\config\RoleInfo.class
-com\ddz\config\shiro\ShiroConfiguration.class
-com\ddz\config\KaptchaConfig.class
-com\ddz\config\shiro\AuthRealm.class
-com\ddz\controller\KaptchaController.class
-com\ddz\BackstageApplication.class
-com\ddz\config\AccountInfo.class
-com\ddz\controller\TestController.class
-com\ddz\config\shiro\CredentialMatcher.class

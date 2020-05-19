@@ -1,0 +1,5 @@
+# Created by .ignore support plugin (hsz.mobi)
+/.idea/
+/logs/
+/voice-utils/target/
+/voice-domain/target/

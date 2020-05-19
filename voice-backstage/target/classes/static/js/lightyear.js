@@ -74,3 +74,37 @@ var lightyear = function(){
 		}
     };
 }();
+
+function showLoading() {
+    lightyear.loading('show');
+}
+
+function showSuccess(msg) {
+    lightyear.loading('hide');
+    lightyear.notify(msg, 'success', 2000);
+}
+
+function showSuccess(msg,duration) {
+    lightyear.loading('hide');
+    lightyear.notify(msg, 'success', duration);
+}
+
+function showFail(msg) {
+    lightyear.loading('hide');
+    lightyear.notify(msg, 'danger', 2000);
+}
+
+function showFail(msg,duration) {
+    lightyear.loading('hide');
+    lightyear.notify(msg, 'danger', duration);
+}
+
+function showWaring(msg) {
+    lightyear.loading('hide');
+    lightyear.notify(msg, 'warning', 2000);
+}
+
+function showWaring(msg,duration) {
+    lightyear.loading('hide');
+    lightyear.notify(msg, 'warning', duration);
+}

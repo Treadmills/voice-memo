@@ -71,6 +71,8 @@
 			<scope>runtime</scope>
 		</dependency>
 
+
+
 		<!-- 热部署 -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -79,6 +81,8 @@
 		</dependency>
 
 	</dependencies>
+
+
 	<build>
 		<plugins>
 			<plugin>
@@ -88,6 +92,7 @@
 					<!--fork :  如果没有该项配置，肯呢个devtools不会起作用，即应用不会restart   这个要手动加进去 -->
 					<fork>true</fork>
 				</configuration>
+
 			</plugin>
 		</plugins>
 	</build>

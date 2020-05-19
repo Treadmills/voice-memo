@@ -55,7 +55,7 @@ public class R<T> implements Serializable
 
     public R data(T data) {
         this.setData(data);
-        //  logger.info("-->> "+JSONObject.toJSONString(this));
+        logger.info("-->> "+JSONObject.toJSONString(this));
         System.out.println(JSONObject.toJSONString(this));
         return this;
     }
