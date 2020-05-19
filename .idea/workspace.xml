@@ -2,149 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bc6fbd50-84da-453f-8459-5eec18104763" name="Default" comment="初始版本提交，实现小程序端基础功能，后台部分未实现">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/static/images/users/avatar1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/static/images/users/avatar2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voice-backstage/src/main/java/com/ddz/config/Swagger2.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voice-backstage/src/main/java/com/ddz/config/shiro/MD5Utils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/static/js/login.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/templates/error.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/templates/navigation.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/controller/LoginController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/voice-backstage/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/voice-backstage/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/voice-backstage/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/voice-backstage/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/voice-backstage/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/voice-backstage/target/voice-backstage-0.0.1-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/voice-backstage/target/voice-backstage-0.0.1-SNAPSHOT.jar.original" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/target/classes/com/ddz/controller/server/EurekaServerApplication.class" afterPath="$PROJECT_DIR$/eureka-server/target/classes/com/ddz/controller/server/EurekaServerApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/eureka-server/target/eureka-server-0.0.1-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/src/main/resources/static/images/users/avatar.jpg" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/static/images/users/avatar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/BackstageApplication.class" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/BackstageApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/config/AccountInfo.class" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/config/AccountInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/config/RoleInfo.class" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/config/RoleInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/config/shiro/AuthRealm.class" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/config/shiro/AuthRealm.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/config/shiro/CredentialMatcher.class" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/config/shiro/CredentialMatcher.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/controller/KaptchaController.class" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/controller/KaptchaController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/controller/TestController.class" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/com/ddz/controller/TestController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/static/images/users/avatar.jpg" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/static/images/users/avatar.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-datasource/target/voice-datasource-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/voice-datasource/target/voice-datasource-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/AccountRoleEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/ActivityShareEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/MenuRoleEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/RoleEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserInfo.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntity.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntityExample$Criteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntityExample$Criteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntityExample$Criterion.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntityExample$Criterion.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntityExample$GeneratedCriteria.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntityExample$GeneratedCriteria.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntityExample.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/entity/UserVoiceEntityExample.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/AccountEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/AccountEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/AccountRoleEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/AccountRoleEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/ActivityEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/ActivityEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/ActivityShareEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/ActivityShareEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/MenuEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/MenuEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/MenuRoleEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/MenuRoleEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/RoleEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/RoleEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/UserEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/UserEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/UserVoiceEntityMapper.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/mapper/UserVoiceEntityMapper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/AccountService.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/AccountService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/ActivityService.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/ActivityService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/ActivityShareService.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/ActivityShareService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/UserService.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/UserService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/UserVoiceService.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/UserVoiceService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/AccountServiceImpl.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/AccountServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/ActivityServiceImpl.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/ActivityServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/ActivityShareServiceImpl.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/ActivityShareServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/UserServiceImpl.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/UserServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/UserVoiceServiceImpl.class" afterPath="$PROJECT_DIR$/voice-domain/target/classes/com/ddz/domain/service/impl/UserVoiceServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/target/voice-domain-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/voice-domain/target/voice-domain-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-file/target/classes/com/ddz/VoiceFileApplication.class" afterPath="$PROJECT_DIR$/voice-file/target/classes/com/ddz/VoiceFileApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-file/target/classes/com/ddz/controller/FileController.class" afterPath="$PROJECT_DIR$/voice-file/target/classes/com/ddz/controller/FileController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-file/target/voice-file-0.0.3-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/voice-file/target/voice-file-0.0.3-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-file/target/voice-file-0.0.3-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/voice-file/target/voice-file-0.0.3-SNAPSHOT.jar.original" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/BitOperator.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/BitOperator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/DateUtils.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/DateUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/HexStringUtils.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/HexStringUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/Json2Utils.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/Json2Utils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/R.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/R.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/StringUtils.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/base/StringUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/config/FileConfig.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/config/FileConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/http/HttpUtil.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/http/HttpUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/voice/AudioUtils.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/voice/AudioUtils.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/voice/VoiceAipSpeech.class" afterPath="$PROJECT_DIR$/voice-utils/target/classes/com/ddz/utils/voice/VoiceAipSpeech.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/target/voice-utils-0.0.1-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/voice-utils/target/voice-utils-0.0.1-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/VoiceWxMiniApplication.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/VoiceWxMiniApplication.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/aop/ControllerInterceptor.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/aop/ControllerInterceptor.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/common/wx/GeneralToken.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/common/wx/GeneralToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/common/wx/WeixinToken.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/common/wx/WeixinToken.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/common/wx/WxApiHelper.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/common/wx/WxApiHelper.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/controller/BaseController.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/controller/BaseController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/controller/LoginController.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/controller/LoginController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/controller/PersonalController.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/controller/PersonalController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/controller/VoiceController.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/controller/VoiceController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/filter/MyCORSFilter.class" afterPath="$PROJECT_DIR$/voice-wx-mini/target/classes/com/ddz/filter/MyCORSFilter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/voice-wx-mini-0.0.4-SNAPSHOT.jar" afterPath="$PROJECT_DIR$/voice-wx-mini/target/voice-wx-mini-0.0.4-SNAPSHOT.jar" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/target/voice-wx-mini-0.0.4-SNAPSHOT.jar.original" afterPath="$PROJECT_DIR$/voice-wx-mini/target/voice-wx-mini-0.0.4-SNAPSHOT.jar.original" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/eureka-server/eureka-server.iml" afterPath="$PROJECT_DIR$/eureka-server/eureka-server.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/voice-full/voice-backstage/console.log" afterPath="$PROJECT_DIR$/logs/voice-full/voice-backstage/console.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/pom.xml" afterPath="$PROJECT_DIR$/voice-backstage/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/src/main/java/com/ddz/config/shiro/AuthRealm.java" afterPath="$PROJECT_DIR$/voice-backstage/src/main/java/com/ddz/config/shiro/AuthRealm.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/src/main/java/com/ddz/controller/LoginController.java" afterPath="$PROJECT_DIR$/voice-backstage/src/main/java/com/ddz/controller/LoginController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/src/main/java/com/ddz/controller/TestController.java" afterPath="$PROJECT_DIR$/voice-backstage/src/main/java/com/ddz/controller/TestController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/src/main/resources/static/js/lightyear.js" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/static/js/lightyear.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/src/main/resources/templates/login.html" afterPath="$PROJECT_DIR$/voice-backstage/src/main/resources/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/static/js/lightyear.js" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/static/js/lightyear.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/target/classes/templates/login.html" afterPath="$PROJECT_DIR$/voice-backstage/target/classes/templates/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-backstage/voice-backstage.iml" afterPath="$PROJECT_DIR$/voice-backstage/voice-backstage.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-datasource/voice-datasource.iml" afterPath="$PROJECT_DIR$/voice-datasource/voice-datasource.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-domain/voice-domain.iml" afterPath="$PROJECT_DIR$/voice-domain/voice-domain.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-file/voice-file.iml" afterPath="$PROJECT_DIR$/voice-file/voice-file.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-memo.iml" afterPath="$PROJECT_DIR$/voice-memo.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/src/main/java/com/ddz/utils/base/R.java" afterPath="$PROJECT_DIR$/voice-utils/src/main/java/com/ddz/utils/base/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-utils/voice-utils.iml" afterPath="$PROJECT_DIR$/voice-utils/voice-utils.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/voice-wx-mini/voice-wx-mini.iml" afterPath="$PROJECT_DIR$/voice-wx-mini/voice-wx-mini.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -470,428 +328,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="users" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-memo" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="voice-backstage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ddz" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1556,7 +992,7 @@
       <workItem from="1589786923289" duration="5847000" />
       <workItem from="1589853631555" duration="5660000" />
       <workItem from="1589869707150" duration="5525000" />
-      <workItem from="1589875527422" duration="6602000" />
+      <workItem from="1589875527422" duration="6738000" />
     </task>
     <task id="LOCAL-00001" summary="初始版本提交，实现小程序端基础功能，后台部分未实现">
       <created>1589854369359</created>
@@ -1565,11 +1001,18 @@
       <option name="project" value="LOCAL" />
       <updated>1589854369359</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="初始版本提交，实现小程序端基础功能，后台部分未实现">
+      <created>1589882740549</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589882740549</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120908000" />
+    <option name="totallyTimeSpent" value="121044000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="2576" height="1416" extended-state="0" />
@@ -1585,18 +1028,18 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40873635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40873635" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32917318" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2425897" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2425897" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38533542" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21383148" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" x="960" y="301" width="639" height="797" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21383148" sideWeight="0.5" order="7" side_tool="false" content_ui="combo" x="960" y="301" width="639" height="797" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1648,13 +1091,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/voice-backstage/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="20" column="19" lean-forward="false" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/voice-wx-mini/src/main/java/com/ddz/controller/LoginController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -1734,6 +1170,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="769">
           <caret line="42" column="10" lean-forward="true" selection-start-line="42" selection-start-column="10" selection-end-line="42" selection-end-column="10" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1820,6 +1257,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="6" column="62" lean-forward="false" selection-start-line="6" selection-start-column="62" selection-end-line="6" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1828,6 +1266,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1842,6 +1281,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="39" column="24" lean-forward="false" selection-start-line="39" selection-start-column="24" selection-end-line="39" selection-end-column="24" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -6784,6 +6224,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="243">
           <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
